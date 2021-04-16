@@ -1,0 +1,223 @@
+iframe{
+    margin-top: -9%;
+    width: 100%;
+    height: 50vw;
+}
+
+.Resultat{
+    
+    width: 70%;
+    margin-left: 15%;
+
+    .Backsearch{
+        background-color: blue;
+        height: 15%;
+
+        .search{
+            display: flex;
+            flex-direction: row;
+            margin-left: 1%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+
+            input{
+                width: 20%;
+                height: 6vh;
+                margin-left: 1%;
+                font-size: 1rem;
+            }
+
+            .recherche{
+                font-size: 0.9vw;
+                width: 10vw;
+                height:6vh;
+                margin-left: 1%;
+                background-color: orange;
+                color: white;
+                margin-right: 1%;
+            }
+        }
+    }
+
+    .title{
+        margin-top: 2%;
+        text-align: center;
+
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            margin-top: 1%;
+            font-size: 1.2rem;
+            text-decoration: underline;
+        }
+    }
+
+    .filter{
+        margin-top: 5%;
+        height: 10%;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        h3{
+            margin-top: 2%;
+            font-size: 1.5rem;
+            margin-left: 2%;
+            color: orange;
+        }
+        select{
+            font-size: 0.7rem;
+            margin-left: 7%;
+            background-color: white;
+            border: none;
+        }
+    }
+
+}   
+
+
+.ListCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 12%;
+
+    .Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 2%;
+
+    }
+    .col_content{
+        margin-top: 4%;
+        height: 100%;
+        .containerpub1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: row;
+            border: 2px solid black;
+            height: 49%;
+            width: 51%;
+            padding: 5px;
+            margin-bottom: 5%;
+        }
+        .containerpub2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: row;
+            border: 2px solid black;
+            height: 49%;
+            width: 51%;
+            padding: 5px;
+        }
+    }
+    
+}
+
+    .carte{
+        width: 30%;
+        margin-top: 2%;
+        margin: 5px;
+        
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .contenucard{
+        border: 2px solid black;
+        margin-top: -4%;
+        .name{
+            
+            background-color: rgba(67, 67, 243, 0.486);
+            h1{
+                font-size: 1rem;
+                color: white;
+            }
+        }
+
+        .para{
+            margin-top: 5%;
+            display: flex;
+            flex-direction: row;
+
+            h2{
+                font-size: 1rem;
+                color: green;
+            }
+            p{
+                margin-left: 6%;
+                font-size: 0.8rem;
+            }
+        }
+
+        .lorem{
+            margin-top: 2%;
+            font-size: 0.8rem;
+        }
+
+        .buttons{
+            margin-bottom: 5%;
+            margin-top: 5%;
+            display: flex;
+            flex-direction: row;
+            
+            p{
+                font-size: 0.7rem;
+            }
+
+            button{
+                width: 40%;
+                margin-left: 4%;
+                font-size: 0.8rem;
+                background-color: blue;
+                color: white;
+            }
+        }
+    }
+
+
+.Carroussel{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    .text{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            margin-top: 1%;
+            margin-left: 40%;
+           font-size: 1rem;
+        }
+    }
+    .CarrouImg{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5%;
+
+        .carousel-item-content 
+        {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

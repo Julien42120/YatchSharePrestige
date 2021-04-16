@@ -1,0 +1,39 @@
+.Back{
+    background-image: url("https://cdn.pixabay.com/photo/2019/11/25/08/41/yacht-4651304_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+
+    .FirstPage{
+        text-align: center;
+        
+        h1{
+            padding-top: 10%;
+            color: white;
+        }
+        .p1{
+            font-weight: bold;
+            margin-bottom: 1%;
+            margin-top: 5%;
+            color: rgb(255, 255, 255);  
+        }
+        .p2{
+            font-weight: bold;
+            margin-bottom: 1%;
+            margin-top: 5%;
+            color: rgb(255, 255, 255);  
+        }
+        .Send{
+            margin-left: -2%;
+            height: 4%;
+            width: 10%;
+            background-color: rgb(18, 18, 209);
+            color: white;
+        }
+        .Create {
+            width: 15%;
+            height: 7vh;
+            background-color: yellow;
+            margin-bottom: 20%;
+        }
+    }
+}

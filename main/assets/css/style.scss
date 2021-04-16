@@ -6,9 +6,10 @@
 //   lg: 80rem,
 //   xl: 90rem
 // );
+$grid-columns : 12;
 
 @import 'base';
 /*! purgecss start ignore */
 @import 'custom-style';
-@import 'components/**/*.scss';
+@import 'components/_1_list';
 /*! purgecss end ignore */

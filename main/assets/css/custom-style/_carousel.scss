@@ -1,0 +1,97 @@
+.carte{
+    width: 15%;
+    margin-top: 2%;
+    margin: 5px;
+    
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.contenucard{
+    border: 2px solid black;
+    margin-top: -4%;
+    .name{
+        
+        background-color: rgba(67, 67, 243, 0.486);
+        h1{
+            font-size: 1rem;
+            color: white;
+        }
+    }
+
+    .para{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+
+        h2{
+            font-size: 1rem;
+            color: green;
+        }
+        p{
+            margin-left: 6%;
+            font-size: 0.8rem;
+        }
+    }
+
+    .lorem{
+        margin-top: 2%;
+        font-size: 0.8rem;
+    }
+
+    .buttons{
+        margin-bottom: 5%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        
+        p{
+            font-size: 0.7rem;
+        }
+
+        button{
+            width: 30%;
+            height: 15%;
+            margin-left: 20%;
+            font-size: 0.8rem;
+            background-color: blue;
+            color: white;
+        }
+    }
+}
+
+
+.Carroussel{
+width: 70%;
+margin-left: 15%;
+margin-top: 2%;
+.text{
+    display: flex;
+    flex-direction: row;
+
+    h1{
+        font-size: 2rem;
+        color: blue;
+    }
+    p{
+        margin-top: 1%;
+        margin-left: 40%;
+       font-size: 1rem;
+    }
+}
+.CarrouImg{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+
+    .carousel-item-content 
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
+}
